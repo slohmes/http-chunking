@@ -1,0 +1,13 @@
+{
+  "name": "http-chunking",
+  "version": "1.0.0",
+  "description": "Http chunked transfer emulator.",
+  "main": "receiveChunks.js",
+  "scripts": {
+    "receive-chunks": "node ./receiveChunks.js",
+    "send-chunks": "node ./sendChunks.js",
+    "start": "npm run send-chunks & npm run receive-chunks & wait"
+  },
+  "author": "Sarah Lohmeier",
+  "license": "ISC"
+}
