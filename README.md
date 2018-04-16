@@ -18,3 +18,10 @@ To send and receive chunks in parallel:
 * Only supports reading one message. The script terminates after processing the terminating chunk of a message.
 * Does not support header field trailers.
 * Chunks are sent 1 second apart to mimic network latency.
+
+### Resources
+[RFC 7230, HTTP/1.1 Message Syntax and Routing, Section 4.1. Chunked Transfer Coding](https://tools.ietf.org/html/rfc7230#section-4.1)
+The official definition of the protocol for HTTP/1.1 Chunked Transfer Coding.
+
+[Wikipedia: Chunked Transfer Encoding](https://en.wikipedia.org/wiki/Chunked_transfer_encoding)
+The Wikipedia article on the subject.
